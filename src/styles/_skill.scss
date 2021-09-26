@@ -1,0 +1,38 @@
+.skills-container {
+  display: flex;
+  align-items: center;
+  .skill-icon{
+    margin-right: 16px;
+    height: 40px;
+    width: 40px;
+  }
+  .skill-title {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  .skill-bar {
+    display: flex;
+    align-items: center;
+
+    .skill-progress {
+      width: 100%;
+      .progress {
+        width: 100%;
+        height: 0.5rem;
+        background-color: red;
+        //    margin-left: 1rem;
+        margin-top: 0.5rem;
+        background-color: #0381ff3f;
+        position: relative;
+        .inner-pregress {
+          position: absolute;
+          background-color: #037fff;
+          height: 100%;
+          bottom: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,8 @@
 .PortfolioPage{
 
+    & .divider{
+        margin: 60px 0;
+    }
 }
 
 .portfolis{
@@ -24,7 +27,7 @@
                 left: 15px;
                 height: calc(100% - 30px);
                 width: calc(100% - 30px);
-                background-color: rgba(255, 255, 255, 0.925);
+                background-color: rgba(255, 255, 255, 0.75);
                 transform-origin: center;
                 transform: scale(0);
                 transition: all .4s ease-in-out;
@@ -44,11 +47,17 @@
                 position: absolute;
                 top: 70%;
                 left: 50%;
+                width: 100%;
                 transform: translate(-50%, -50%);
                 padding: 1rem 2rem;
                 visibility: hidden;
                 li{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
                     a{
+                        display: flex;
+                        align-items: center;
                         padding: 1rem;
                         text-decoration: none;
                         font-family: inherit;
@@ -57,6 +66,9 @@
                         color: white;
                         &:not(:last-child){
                             margin-right: 2rem;
+                        }
+                        & svg{
+                            margin-right: 6px;
                         }
                     }
                 }

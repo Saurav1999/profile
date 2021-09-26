@@ -25,12 +25,20 @@ function PortfoliosPage() {
     return (
         <div className="PortfolioPage">
             <div className="title">
-                <Tittle title={'Portfolios'} span={'portfolios'} />
+                <Tittle title={'Projects'} span={'projects'} />
             </div>
             <div className="portfolios-data">
                 <Categories filter={filter} categories={categories} />
                 <MenuItems menuItem={menuItems} />
             </div>
+            {/* <div className="divider"/>
+            <div className="title">
+                <Tittle title={'Mini Projects'} span={'mini projects'} />
+            </div>
+            <div className="portfolios-data">
+                <Categories filter={filter} categories={categories} />
+                <MenuItems menuItem={menuItems} />
+            </div> */}
         </div>
     )
 }

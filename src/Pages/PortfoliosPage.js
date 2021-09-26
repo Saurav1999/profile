@@ -8,7 +8,7 @@ import { useState } from 'react';
 const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
 
 function PortfoliosPage() {
-    const [categories, setCategories] = useState(allCategories);
+    // const [categories, setCategories] = useState(allCategories);
     const [menuItems, setMenuItems] = useState(portfolios);
 
     const filter = (category) =>{
@@ -28,7 +28,7 @@ function PortfoliosPage() {
                 <Tittle title={'Projects'} span={'projects'} />
             </div>
             <div className="portfolios-data">
-                <Categories filter={filter} categories={categories} />
+                <Categories filter={filter} categories={allCategories} />
                 <MenuItems menuItem={menuItems} />
             </div>
             {/* <div className="divider"/>

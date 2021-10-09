@@ -77,7 +77,7 @@
     left: 0;
     bottom: 0;
     background-color: #a4acc4;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   &:hover::after {
     width: 100%;
@@ -105,7 +105,7 @@
   font-family: inherit;
   color: white;
   margin-bottom: 1rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
   &:not(:last-child) {
     margin-right: 1rem;
   }

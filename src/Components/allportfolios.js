@@ -32,7 +32,7 @@ export const projectList = [
         label2: 'Live',
         image: port2,
         title: 'Portfolio Website I',
-        description:"A portfolio website just like the one you are at now, but with different look and feel."
+        description:"A portfolio website just like the one you are at now, but with different look and feel (Development still in progess.)"
     },
     {
         id: 3,

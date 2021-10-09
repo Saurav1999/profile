@@ -10,6 +10,7 @@
         padding: 3rem 0;
         .right-items{
             margin-left: 2rem;
+            word-break: break-all;
         }
         img{
             padding: 1rem;
@@ -21,6 +22,17 @@
             h6{
                 font-size: 1.4rem;
                 font-weight: 500;
+            }
+        }
+        @media screen and (max-width: 450px){
+            padding: 2rem 0;
+            img{
+
+                margin-left: 1rem;
+ 
+            }
+            .right-items{
+                margin-left: 1.2rem;
             }
         }
     }

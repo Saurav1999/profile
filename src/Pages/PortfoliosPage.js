@@ -2,24 +2,36 @@ import React from 'react';
 import Categories from '../Components/Categories';
 import MenuItems from '../Components/MenuItems';
 import Tittle from '../Components/Tittle';
-import portfolios from '../Components/allportfolios';
+import {projectList,miniProjectsList} from '../Components/allportfolios';
 import { useState } from 'react';
 
-const allCategories = ['All', ...new Set(portfolios.map(item => item.category))];
+const allProjectCategories = ['All', ...new Set(projectList.map(item => item.category))];
+const allMiniProjectCategories = ['All', ...new Set(miniProjectsList.map(item => item.category))];
 
 function PortfoliosPage() {
     // const [categories, setCategories] = useState(allCategories);
-    const [menuItems, setMenuItems] = useState(portfolios);
+    const [projects, setProjects] = useState(projectList);
+    const [miniProjects, setMiniProjects] = useState(miniProjectsList);
 
-    const filter = (category) =>{
+    const filterProjects = (category) =>{
         if(category === 'All'){
-            setMenuItems(portfolios)
+            setProjects(projectList)
             return;
         }
-        const filteredData  = portfolios.filter((item)=>{
+        const filteredData  = projectList.filter((item)=>{
             return item.category === category;
         })
-        setMenuItems(filteredData);
+        setProjects(filteredData);
+    }
+    const filterMiniProjects = (category) =>{
+        if(category === 'All'){
+            setMiniProjects(miniProjectsList)
+            return;
+        }
+        const filteredData  = miniProjectsList.filter((item)=>{
+            return item.category === category;
+        })
+        setMiniProjects(filteredData);
     }
 
     return (
@@ -28,17 +40,17 @@ function PortfoliosPage() {
                 <Tittle title={'Projects'} span={'projects'} />
             </div>
             <div className="portfolios-data">
-                <Categories filter={filter} categories={allCategories} />
-                <MenuItems menuItem={menuItems} />
+                <Categories filter={filterProjects} categories={allProjectCategories} />
+                <MenuItems menuItem={projects} />
             </div>
-            {/* <div className="divider"/>
+            <div className="divider"/>
             <div className="title">
                 <Tittle title={'Mini Projects'} span={'mini projects'} />
             </div>
             <div className="portfolios-data">
-                <Categories filter={filter} categories={categories} />
-                <MenuItems menuItem={menuItems} />
-            </div> */}
+                <Categories filter={filterMiniProjects} categories={allMiniProjectCategories} />
+                <MenuItems menuItem={miniProjects} />
+            </div>
         </div>
     )
 }

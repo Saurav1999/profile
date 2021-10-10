@@ -20,7 +20,7 @@ function HomePage() {
                     <span> Saurav.</span>
                 </h1>
                 <p className="h-sub-text">
-                Web developer with a passion for thoughtful UI. I develop elegant and responsive frontend with optimised and modern backend. I actively seek out new technologies and stay up-to-date on industry trends and advancements.
+                Frontend web developer with a passion for thoughtful UI. I develop elegant and responsive frontends. I have experience building backend with REST and GraphQl APIs. I actively seek out new technologies and stay up-to-date on industry trends and advancements.
                 </p>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/saurav-singh-a0793118b" className="icon-holder">

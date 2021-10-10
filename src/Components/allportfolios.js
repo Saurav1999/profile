@@ -32,7 +32,7 @@ export const projectList = [
         label2: 'Live',
         image: port2,
         title: 'Portfolio Website I',
-        description:"A portfolio website just like the one you are at now, but with different look and feel (Development still in progess.)"
+        description:"A portfolio website just like the one you are at now, but with different look and feel (Development still in progess)."
     },
     {
         id: 3,
@@ -80,7 +80,7 @@ export const miniProjectsList = [
         label2: 'Live',
         image: mini3,
         title: 'Form Validation',
-        description:"A simple form with input validation"
+        description:"A simple form with input validation."
     },
     {
         id: 4,
@@ -91,7 +91,7 @@ export const miniProjectsList = [
         label2: 'Live',
         image: mini4,
         title: 'Modal & Sliding Sidebar',
-        description:"A landing page with a sliding sidebar and modal for form, created using Vanilla Js"
+        description:"A landing page with a sliding sidebar and modal for form, created using Vanilla Js."
     },
     {
         id: 5,
@@ -102,7 +102,7 @@ export const miniProjectsList = [
         label2: 'Live',
         image: mini5,
         title: 'Movie Seat Booking',
-        description:"An application to book movie seats. Persists state in local storage"
+        description:"An application to book movie seats. Persists state in local storage."
     },
     {
         id: 6,

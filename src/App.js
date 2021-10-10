@@ -11,6 +11,7 @@ import emailjs from "emailjs-com";
 
 init("user_NITjmkLgyLOvo8wvCW52i");
 
+
 window.onload = emailjs.send("service_5tajkbl", "template_p0yatcf", {
   from_name: "App",
   message: `Someone Visited @${(new Date()).toString()}`,
@@ -23,16 +24,23 @@ window.onload = emailjs.send("service_5tajkbl", "template_p0yatcf", {
 function App() {
   const [navToggle, setNavToggle] = useState(false);
 
+  window.addEventListener('click', function(e){   
+    if (document.getElementById('sidebar').contains(e.target) || document.getElementById('nav-btn').contains(e.target)){
+      // Clicked in box
+    } else{
+      setNavToggle(false);
+    }
+  });
   const navClick = () => {
     setNavToggle(!navToggle);
   };
 
   return (
     <div className="App">
-      <div className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
+      <div id="sidebar" className={`sidebar ${navToggle ? "nav-toggle" : ""}`}>
         <NavBar setNavToggle={setNavToggle} />
       </div>
-      <div className="nav-btn" onClick={navClick}>
+      <div id = "nav-btn" className="nav-btn" onClick={navClick}>
         <div className="lines-1"></div>
         <div className="lines-2"></div>
         <div className="lines-3"></div>

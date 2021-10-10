@@ -69,6 +69,7 @@
   letter-spacing: 2px;
   margin-top: 1rem;
   position: relative;
+  overflow: hidden;
   &::after {
     position: absolute;
     content: "";
@@ -78,9 +79,11 @@
     bottom: 0;
     background-color: #a4acc4;
     transition: all 0.1s ease-in-out;
+
   }
   &:hover::after {
     width: 100%;
+    
   }
 }
 
@@ -122,14 +125,18 @@
 
 .buttons {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 4rem 10rem;
+  margin: 4rem auto;
+  max-width: 600px;
+  // margin: 4rem 10rem;
   flex-wrap: wrap;
   @media screen and (max-width: 1270px) {
-    margin: 2rem 5rem;
+    margin: 2rem auto;
+    // margin: 2rem 5rem;
   }
   @media screen and (max-width: 1100px) {
-    margin: 2rem 2rem;
+    margin: 2rem auto;
+    // margin: 2rem 2rem;
   }
 }

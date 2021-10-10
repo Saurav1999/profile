@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 // import {faFacebook} from '@fortawesome/free-brands-svg-icons';
 // import {faGithub} from '@fortawesome/free-brands-svg-icons';
 // import {faYoutube} from '@fortawesome/free-brands-svg-icons';
@@ -9,6 +9,9 @@ import {SiReplDotIt} from 'react-icons/si'
 // import {Link} from 'react-router-dom';
 
 function HomePage() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div className="HomePage">
             <header className="hero">

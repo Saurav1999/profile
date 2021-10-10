@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Tittle from "../Components/Tittle";
 import ImageSection from "../Components/ImageSection";
 import SkillsSection from "../Components/SkillsSection";
@@ -18,6 +18,9 @@ import { SiWebpack } from "react-icons/si";
 import { SiBabel } from "react-icons/si";
 
 function AboutPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="AboutPage">
       <Tittle title={"About Me"} span={"About Me"} />

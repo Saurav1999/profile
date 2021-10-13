@@ -12,11 +12,11 @@ import emailjs from "emailjs-com";
 init("user_NITjmkLgyLOvo8wvCW52i");
 
 
-window.onload = emailjs.send("service_5tajkbl", "template_p0yatcf", {
+window.onload = emailjs.send("service_75vufgv", "template_d6e17ne", {
   from_name: "App",
   message: `Someone Visited @${(new Date()).toString()}`,
   subject: "Someone Visited",
-  email: "singhsaurav19992@gmail.com",
+  email: "singhsaurav1999@gmail.com",
   to_name: "Saurav",
   reply_to: "singhsaurav1999@gmail.com",
 });

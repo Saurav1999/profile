@@ -3,7 +3,7 @@ import React,{useEffect} from 'react';
 // import {faGithub} from '@fortawesome/free-brands-svg-icons';
 // import {faYoutube} from '@fortawesome/free-brands-svg-icons';
 import {IoLogoLinkedin,IoLogoGithub} from 'react-icons/io'
-import {SiReplDotIt} from 'react-icons/si'
+// import {SiReplDotIt}` from 'react-icons/si'
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import {Link} from 'react-router-dom';
@@ -30,9 +30,9 @@ function HomePage() {
                     <a href="https://github.com/Saurav1999" className="icon-holder">
                         <IoLogoGithub className="icon-social"/>
                     </a>
-                    <a href="https://replit.com/@Saurav1999" className="icon-holder">
+                    {/* <a href="https://replit.com/@Saurav1999" className="icon-holder">
                         <SiReplDotIt className="icon-social"/>
-                    </a>
+                    </a> */}
                 </div>
             </header>
         </div>

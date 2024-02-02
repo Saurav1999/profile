@@ -13,10 +13,13 @@ function ImageSection() {
           I am<span> Saurav Singh</span>
         </h4>
         <p className="about-text">
-          Full stack web developer with a passion for thoughtful UI. I develop elegant
-          and responsive frontends. I have experience building backend with REST, GRPC
-          and GraphQl APIs. I actively seek out new technologies and stay
-          up-to-date on industry trends and advancements.
+          As a Senior Software Engineer, I am currently driving innovation at Paytm Payments Bank. In my impactful role, I have played a pivotal part in shaping various banking features and services, such as Authentication, Money Transfer, Fixed Deposits, Debit & NCMC Card (Issuance, management, and ordering), KYC, Device Binding, and more.
+          <br/>
+          <br/> 
+          One notable achievement in my journey has been leading the development of the myAadhaar Portal, accessible at <a href="https://myaadhaar.uidai.gov.in/">https://myaadhaar.uidai.gov.in/</a>. This portal serves as a critical platform for over 1.3 billion Indian citizens, offering seamless online Aadhaar-related services. It's a testament to my commitment to creating impactful solutions that positively impact the lives of individuals on a large scale.
+          <br/>
+          <br/>
+          Beyond these accomplishments, my passion for thoughtful UI and expertise in crafting elegant and responsive frontends, coupled with backend proficiency in creating REST, gRPC, and GraphQL APIs, form the foundation of my approach to web development. I thrive on staying ahead of industry trends, ensuring my work remains cutting-edge and aligned with the evolving landscape of technology.
         </p>
         <div className="about-details">
           <div className="left-section">

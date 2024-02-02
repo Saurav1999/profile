@@ -34,6 +34,13 @@
       color: #a4acc4;
     }
 
+    & .icon-social-replit{
+      transition: all .1s ease-in;
+      height: 36px;
+      width: 36px;
+      color: #a4acc4;
+    }
+
     &:hover {
       & .icon-social {
         transform: scale(1.1) translateY(-6px);

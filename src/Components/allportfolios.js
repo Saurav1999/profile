@@ -25,17 +25,6 @@ export const projectList = [
     },
     {
         id: 2,
-        category: 'React Js',
-        link1: 'https://github.com/Saurav1999/Portfolio',
-        link2: 'https://www.saurav1999.tech/',
-        label1: 'Code',
-        label2: 'Live',
-        image: port2,
-        title: 'Portfolio Website I',
-        description:"A portfolio website just like the one you are at now, but with different look and feel (Development still in progess)."
-    },
-    {
-        id: 3,
         category: 'Next Js',
         link1: '',
         link2: 'https://portfolio-psi-livid.vercel.app/',
@@ -43,8 +32,20 @@ export const projectList = [
         label2: 'Live',
         image: port3,
         title: 'Portfolio Website II',
+        description:"A portfolio website just like the one you are at now, but developed using NextJs."
+    },
+    {
+        id: 3,
+        category: 'React Js',
+        link1: 'https://github.com/Saurav1999/Portfolio',
+        // link2: 'https://www.saurav1999.tech/',
+        label1: 'Code',
+        label2: 'Live',
+        image: port2,
+        title: 'Portfolio Website I',
         description:"A portfolio website just like the one you are at now, but with different look and feel."
     },
+
   
 ]
 

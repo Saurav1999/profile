@@ -13,8 +13,8 @@ function ImageSection() {
           I am<span> Saurav Singh</span>
         </h4>
         <p className="about-text">
-          Frontend web developer with a passion for thoughtful UI. I develop elegant
-          and responsive frontends. I have experience building backend with REST
+          Full stack web developer with a passion for thoughtful UI. I develop elegant
+          and responsive frontends. I have experience building backend with REST, GRPC
           and GraphQl APIs. I actively seek out new technologies and stay
           up-to-date on industry trends and advancements.
         </p>
@@ -30,7 +30,7 @@ function ImageSection() {
             <p>: Whitefield, Bengaluru, Karnataka, India</p>
           </div>
         </div>
-        <a href="https://drive.google.com/file/d/1U5rGL8UtMPZBHbbZsjR-0cTE-B3Swl_9/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1kyqdW-CBBUadClT1TkaL2vXD_-xiWKsG/view?usp=sharing">
           <button className="btn">Resume</button>
         </a>
       </div>

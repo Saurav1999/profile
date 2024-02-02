@@ -6,20 +6,25 @@ import AboutPage from "./Pages/AboutPage";
 import PortfliosPage from "./Pages/PortfoliosPage";
 import ContactPage from "./Pages/ContactPage";
 import { useState } from "react";
-// import { init } from "emailjs-com";
-// import emailjs from "emailjs-com";
+import { init } from "emailjs-com";
+import emailjs from "emailjs-com";
 
-// init("user_NITjmkLgyLOvo8wvCW52i");
+init("user_NITjmkLgyLOvo8wvCW52i");
 
+try{
+  window.onload = emailjs.send("service_5tajkbl","template_p0yatcf", {
+    from_name: "App",
+    message: `Someone Visited @${(new Date()).toString()}`,
+    subject: "Someone Visited",
+    email: "singhsaurav1999@gmail.com",
+    to_name: "Saurav",
+    reply_to: "singhsaurav1999@gmail.com",
+  });
+}
+catch(err){
 
-// window.onload = emailjs.send("service_75vufgv", "template_d6e17ne", {
-//   from_name: "App",
-//   message: `Someone Visited @${(new Date()).toString()}`,
-//   subject: "Someone Visited",
-//   email: "singhsaurav1999@gmail.com",
-//   to_name: "Saurav",
-//   reply_to: "singhsaurav1999@gmail.com",
-// });
+}
+
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);

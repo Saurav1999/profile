@@ -1,5 +1,6 @@
 .ImageSection {
   display: flex;
+  flex-direction: column;
   margin-top: 4rem;
   margin-bottom: 4rem;
   .img {
@@ -7,7 +8,7 @@
     height: 50vh;
     img {
       width: 100%;
-      object-fit: cover;
+      // object-fit: contain;
       height: 70%;
     }
   }
@@ -19,6 +20,9 @@
     }
     .about-text {
       padding: 1rem 0;
+      a {
+        color: #037fff;
+      }
     }
   }
   @media screen and (max-width: 450px) {

@@ -33,7 +33,7 @@ function ImageSection() {
             <p>: Whitefield, Bengaluru, Karnataka, India</p>
           </div>
         </div>
-        <a href="https://drive.google.com/file/d/1kyqdW-CBBUadClT1TkaL2vXD_-xiWKsG/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/129vTOW3pMBgeMt3wOZuAssUfyGuaMtQ1/view?usp=sharing">
           <button className="btn">Resume</button>
         </a>
       </div>

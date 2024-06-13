@@ -13,7 +13,7 @@ function ImageSection() {
           I am<span> Saurav Singh</span>
         </h4>
         <p className="about-text">
-          As a Senior Software Engineer, I am currently driving innovation at Paytm Payments Bank. In my impactful role, I have played a pivotal part in shaping various banking features and services, such as Authentication, Money Transfer, Fixed Deposits, Debit & NCMC Card (Issuance, management, and ordering), KYC, Device Binding, and more.
+          As a Senior Software Engineer, I am currently driving innovation at Paytm. In my impactful role, I have played a pivotal part in shaping various banking features and services, such as Authentication, Money Transfer, Fixed Deposits, Debit & NCMC Card (Issuance, management, and ordering), KYC, Device Binding, and more.
           <br/>
           <br/> 
           One notable achievement in my journey has been leading the development of the myAadhaar Portal, accessible at <a href="https://myaadhaar.uidai.gov.in/">https://myaadhaar.uidai.gov.in/</a>. This portal serves as a critical platform for over 1.3 billion Indian citizens, offering seamless online Aadhaar-related services. It's a testament to my commitment to creating impactful solutions that positively impact the lives of individuals on a large scale.
@@ -33,7 +33,7 @@ function ImageSection() {
             <p>: Whitefield, Bengaluru, Karnataka, India</p>
           </div>
         </div>
-        <a href="https://drive.google.com/file/d/129vTOW3pMBgeMt3wOZuAssUfyGuaMtQ1/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1W5hULIu362tf2UHKn7HtHiq7kqtUKeZP/view?usp=sharing">
           <button className="btn">Resume</button>
         </a>
       </div>
